@@ -1,11 +1,12 @@
 ---
 title: "Ontario COVID Tracker - By Hospital Locations"
 author: "Bowen Zhang"
-date: "Accurate as of: 6/20/2020"
 output: 
         html_document:
                 keep_md: yes
 ---
+
+**Accurate as of 6/20/2020**
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
