@@ -15,4 +15,4 @@ Files:
 2. interactivemap.md - markdown version (use this when reading from github)
 3. interactivemap.html - the html output 
 
-Final Product: 
+Final Product: https://b-zhang93.github.io/Ontario-Covid-Tracker-Interactive-Map/
