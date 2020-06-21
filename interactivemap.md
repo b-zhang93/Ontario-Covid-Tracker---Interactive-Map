@@ -21,6 +21,7 @@ covdata <- read.csv("covid.csv")
 
 ```{r map, out.width="100%", fig.height=8, message=FALSE}
 library(leaflet)
+library(dplyr)
 
 subdata <- covdata[,c(9,3,16,17)]
 names(subdata) <- c("outcome", "date", "lat", "lng")
