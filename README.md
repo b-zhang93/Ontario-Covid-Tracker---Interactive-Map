@@ -16,3 +16,8 @@ Files:
 3. interactivemap.html - the html output 
 
 Final Product: https://b-zhang93.github.io/Ontario-Covid-Tracker-Interactive-Map/
+
+
+Possible Updates:
+- make data updates dynamic 
+- expand region / more detailed information regarding each case
