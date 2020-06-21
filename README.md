@@ -21,4 +21,4 @@ Final Product: https://b-zhang93.github.io/Ontario-Covid-Tracker-Interactive-Map
 ## Possible Updates
 - make data updates dynamic 
 - expand region / more detailed information regarding each case
-- show overall resolved/fatal/not-resolved cases rather than having individual markers. (saves loading time for hospitals with large data points)
+- show overall resolved/fatal/not-resolved cases rather than having individual markers at max zoom. (saves loading time for hospitals with large data points)
