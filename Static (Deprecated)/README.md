@@ -1,5 +1,13 @@
 # Ontario-Covid-Tracker-Interactive-Map
 
+## Update (June 24, 2020)
+
+The github pages static covid tracker is now deprecated. It will no longer be updated after June 20/2020
+
+The **updated application** is now hosted on shiny with auto-updating data and filter capabilities here: https://bzhang93.shinyapps.io/covid-tracker/
+The code for the shiny app can be found in app.R in the master branch.
+
+## Original Readme (June 20/20):
 
 Created by: Bowen Zhang 
 
