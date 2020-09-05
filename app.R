@@ -42,10 +42,9 @@ ui <- fluidPage(
                                 checkboxInput("show_res", "Show Resolved Cases", value = TRUE),
                                 checkboxInput("show_fat", "Show Fatal Cases", value = TRUE),
                                 checkboxInput("show_ong", "Show Ongoing Cases", value = TRUE),
-                                sliderInput("date_slider", "Date Range", 
-                                             min(covdata$date), 
-                                             max(covdata$date),
-                                             range(covdata$date)),
+                                 dateRangeInput("date_slider", "Date Range", 
+                                            "2020-01-23",
+                                            Sys.Date()),
                                 selectInput("phu", "Select Public Health Unit", 
                                             choices = c("All", unique(covdata$health_unit))))
                             ),
